@@ -1,0 +1,88 @@
+.ctable-content {
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+  &-header {
+    position: relative;
+    display: grid;
+    width: 100%;
+    background: linear-gradient(
+      90deg,
+      rgb(51, 153, 204) 0%,
+      rgb(51, 102, 204) 100%
+    );
+    padding: 10px 0px 35px 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    color: white;
+    font-size: 1rem;
+    font-family: UTMAvo;
+    z-index: 2;
+    grid-gap: 10px;
+  }
+  &-body {
+    ul:not(.el-pager) {
+      width: 100%;
+      padding: 10px 0px 10px 10px;
+      grid-gap: 10px;
+      display: grid;
+    }
+    position: relative;
+    display: flex;
+    padding: 20px 0;
+    border-radius: 30px;
+    margin-top: -25px;
+    z-index: 3;
+    background-color: white;
+    height: 100%;
+    border: 1px solid #38c;
+    font-family: UTMAvo;
+    flex-direction: column;
+    min-height: 200px;
+    &__tag {
+      display: flex;
+      border-width: 10px;
+      border-style: solid;
+      border-image-slice: 1;
+      border-image-source: $primary-gradient;
+      border-top: 0;
+      border-bottom: 0;
+      border-right: 0;
+      width: 100%;
+      background-color: #e5e5e5;
+      position: relative;
+      transition: all 0.4s;
+      margin-bottom: 5px;
+    }
+    &__item {
+      padding: 0.05rem 0;
+    }
+  }
+  .action {
+    gap: 3px;
+    .btn {
+      line-height: 1;
+    }
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .ctable-content-header {
+    font-size: 1.15rem;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .ctable-content {
+    &-header {
+      min-width: 980px;
+      padding: 10px 0px 35px 35px;
+    }
+    &-body {
+      min-width: 980px;
+      ul {
+        padding-left: 25px;
+      }
+    }
+  }
+}

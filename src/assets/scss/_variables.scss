@@ -1,0 +1,27 @@
+$white-color: #fff;
+$black-color: #000;
+$success-color: #00cc66;
+$warning-color: #ff6600;
+$danger-color: #cc0000;
+$primary-start-color: rgba(51, 102, 204, 1);
+$primary-end-color: rgba(51, 153, 204, 1);
+$warning-start-color: #ff9933;
+$warning-end-color: #ffcc00;
+
+$primary-gradient: linear-gradient(
+	90deg,
+	$primary-start-color 0%,
+	$primary-end-color 145%
+);
+
+$primary-gradient-revert: linear-gradient(
+	90deg,
+	$primary-end-color 0%,
+	$primary-start-color 145%
+);
+
+$warning-gradient: linear-gradient(
+	90deg,
+	$warning-start-color 0%,
+	$warning-end-color 145%
+);
