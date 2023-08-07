@@ -52,9 +52,7 @@ const isShowTask = ref(false);
               ]"
             ></i>
           </div>
-          <div class="mpj_l_b_t_t_tag_priority mr-2">
-            {{ data.status_id }}
-          </div>
+          <div class="mpj_l_b_t_t_tag_priority mr-2"></div>
           {{ data.task_name }}
           <div class="mpj_l_b_pn_btn_config flex center">
             <div

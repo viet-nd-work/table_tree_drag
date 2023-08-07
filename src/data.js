@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: 18,
-    name: "trest",
+    name: "test 1",
     name_cn: null,
     leader_id: 6,
     created_by: 4,
@@ -18,7 +18,7 @@ export const projects = [
     tasks: [
       {
         id: 52,
-        task_name: "ttttt b",
+        task_name: "test 11",
         task_desc: null,
         priority_id: 1,
         status_id: 1,
@@ -96,7 +96,7 @@ export const projects = [
   },
   {
     id: 20,
-    name: "teaset asdgasdgasdg",
+    name: "test 2",
     name_cn: null,
     leader_id: 5,
     created_by: 4,
@@ -112,7 +112,7 @@ export const projects = [
     tasks: [
       {
         id: 54,
-        task_name: "ttttttt t",
+        task_name: "test 21",
         task_desc: null,
         priority_id: 1,
         status_id: 1,
@@ -134,7 +134,7 @@ export const projects = [
         sub_task: [
           {
             id: 69,
-            task_name: "sdfasd",
+            task_name: "test 211",
             task_desc: null,
             priority_id: 1,
             status_id: 1,
@@ -156,7 +156,7 @@ export const projects = [
             sub_task: [
               {
                 id: 70,
-                task_name: "sdfasdfasd",
+                task_name: "test 212",
                 task_desc: null,
                 priority_id: 1,
                 status_id: 1,
@@ -194,7 +194,7 @@ export const projects = [
               },
               {
                 id: 73,
-                task_name: "mmmmm mmm",
+                task_name: "test 213",
                 task_desc: null,
                 priority_id: 1,
                 status_id: 1,
@@ -216,7 +216,7 @@ export const projects = [
                 sub_task: [
                   {
                     id: 74,
-                    task_name: "tetat bbbb",
+                    task_name: "test 2131",
                     task_desc: null,
                     priority_id: 1,
                     status_id: 1,
@@ -305,7 +305,7 @@ export const projects = [
       },
       {
         id: 77,
-        task_name: "oooo",
+        task_name: "test 22",
         task_desc: "<p>ooooo</p>",
         priority_id: 1,
         status_id: 1,
@@ -327,7 +327,7 @@ export const projects = [
         sub_task: [
           {
             id: 75,
-            task_name: "gdsgasdgs 1213",
+            task_name: "test 221",
             task_desc: null,
             priority_id: 1,
             status_id: 1,
@@ -365,7 +365,7 @@ export const projects = [
           },
           {
             id: 76,
-            task_name: "tetawetea 8888",
+            task_name: "test 223",
             task_desc: null,
             priority_id: 3,
             status_id: 3,
@@ -433,7 +433,7 @@ export const projects = [
   },
   {
     id: 19,
-    name: "kkkkk",
+    name: "test 3",
     name_cn: null,
     leader_id: 5,
     created_by: 4,
@@ -449,7 +449,7 @@ export const projects = [
     tasks: [
       {
         id: 44,
-        task_name: "test task 1",
+        task_name: "test 31",
         task_desc: null,
         priority_id: 2,
         status_id: 6,
@@ -487,7 +487,7 @@ export const projects = [
       },
       {
         id: 50,
-        task_name: "ttastgasdfg",
+        task_name: "test 32",
         task_desc: null,
         priority_id: 2,
         status_id: 3,
@@ -535,262 +535,5 @@ export const projects = [
         },
       },
     ],
-  },
-  {
-    id: 15,
-    name: "tesst vn",
-    name_cn: "tesst cn",
-    leader_id: 13,
-    created_by: 0,
-    images:
-      "images/1690452340_eye.png,images/1690452341_Layer881.png,images/1690452341_lock.png,images/1690452487_test.svg,images/1690452567_login.png",
-    logo: "images/1690452337_eye.png",
-    desc: null,
-    status: 0,
-    estimate_time: 0,
-    due_date: "2023-07-22",
-    start_date: "2023-07-20",
-    created_at: "2023-07-19T02:08:55.000000Z",
-    updated_at: "2023-07-27T10:09:31.000000Z",
-    tasks: [],
-    members: [
-      {
-        id: 13,
-        name: "Hai Nam",
-        color: null,
-        pivot: {
-          project_id: 15,
-          user_id: 13,
-        },
-      },
-    ],
-  },
-  {
-    id: 17,
-    name: "test dn",
-    name_cn: "te",
-    leader_id: 11,
-    created_by: 4,
-    images: "images/,images/,images/,images/,images/1690449986_user.png",
-    logo: "images/1690449378_eye.png",
-    desc: "<p>a</p>",
-    status: 0,
-    estimate_time: 0,
-    due_date: "2023-07-22",
-    start_date: "2023-07-10",
-    created_at: "2023-07-21T01:36:11.000000Z",
-    updated_at: "2023-07-27T09:26:31.000000Z",
-    tasks: [],
-    members: [
-      {
-        id: 11,
-        name: "Hoài Trâm",
-        color: null,
-        pivot: {
-          project_id: 17,
-          user_id: 11,
-        },
-      },
-      {
-        id: 5,
-        name: "Nguyễn Đình Vượng",
-        color: null,
-        pivot: {
-          project_id: 17,
-          user_id: 5,
-        },
-      },
-      {
-        id: 4,
-        name: "Super Admin",
-        color: "#F24D16",
-        pivot: {
-          project_id: 17,
-          user_id: 4,
-        },
-      },
-      {
-        id: 6,
-        name: "zhaofei",
-        color: null,
-        pivot: {
-          project_id: 17,
-          user_id: 6,
-        },
-      },
-      {
-        id: 17,
-        name: "Nguyễn Việt",
-        color: null,
-        pivot: {
-          project_id: 17,
-          user_id: 17,
-        },
-      },
-    ],
-  },
-  {
-    id: 16,
-    name: "ttttt",
-    name_cn: "ttttt 1",
-    leader_id: 13,
-    created_by: 0,
-    images: "aaaa",
-    logo: "aa",
-    desc: null,
-    status: 0,
-    estimate_time: 0,
-    due_date: "2023-07-21",
-    start_date: "2023-07-18",
-    created_at: "2023-07-19T02:12:36.000000Z",
-    updated_at: "2023-07-21T01:35:27.000000Z",
-    tasks: [],
-    members: [
-      {
-        id: 13,
-        name: "Hai Nam",
-        color: null,
-        pivot: {
-          project_id: 16,
-          user_id: 13,
-        },
-      },
-    ],
-  },
-  {
-    id: 14,
-    name: "test demo",
-    name_cn: null,
-    leader_id: 11,
-    created_by: 0,
-    images: null,
-    logo: null,
-    desc: null,
-    status: 0,
-    estimate_time: 0,
-    due_date: "2023-07-21",
-    start_date: "2023-07-18",
-    created_at: "2023-07-19T01:32:31.000000Z",
-    updated_at: "2023-07-19T01:32:31.000000Z",
-    tasks: [],
-    members: [
-      {
-        id: 9,
-        name: "zhangke",
-        color: null,
-        pivot: {
-          project_id: 14,
-          user_id: 9,
-        },
-      },
-      {
-        id: 13,
-        name: "Hai Nam",
-        color: null,
-        pivot: {
-          project_id: 14,
-          user_id: 13,
-        },
-      },
-      {
-        id: 14,
-        name: "Test 1",
-        color: null,
-        pivot: {
-          project_id: 14,
-          user_id: 14,
-        },
-      },
-      {
-        id: 15,
-        name: "Test 244",
-        color: null,
-        pivot: {
-          project_id: 14,
-          user_id: 15,
-        },
-      },
-      {
-        id: 11,
-        name: "Hoài Trâm",
-        color: null,
-        pivot: {
-          project_id: 14,
-          user_id: 11,
-        },
-      },
-      {
-        id: 4,
-        name: "Super Admin",
-        color: "#F24D16",
-        pivot: {
-          project_id: 14,
-          user_id: 4,
-        },
-      },
-      {
-        id: 6,
-        name: "zhaofei",
-        color: null,
-        pivot: {
-          project_id: 14,
-          user_id: 6,
-        },
-      },
-    ],
-  },
-  {
-    id: 13,
-    name: "demo 1",
-    name_cn: "ttttt",
-    leader_id: 11,
-    created_by: 0,
-    images: null,
-    logo: null,
-    desc: "<p>1111</p>",
-    status: 0,
-    estimate_time: 0,
-    due_date: "2023-07-19",
-    start_date: "2023-07-16",
-    created_at: "2023-07-16T23:59:56.000000Z",
-    updated_at: "2023-07-16T23:59:56.000000Z",
-    tasks: [],
-    members: [],
-  },
-  {
-    id: 12,
-    name: "gggg",
-    name_cn: null,
-    leader_id: 0,
-    created_by: 0,
-    images: null,
-    logo: null,
-    desc: null,
-    status: 2,
-    estimate_time: 0,
-    due_date: "2023-07-14",
-    start_date: "2023-07-10",
-    created_at: "2023-07-13T00:05:43.000000Z",
-    updated_at: "2023-07-13T20:12:45.000000Z",
-    tasks: [],
-    members: [],
-  },
-  {
-    id: 11,
-    name: "test 1",
-    name_cn: null,
-    leader_id: 0,
-    created_by: 0,
-    images: null,
-    logo: null,
-    desc: null,
-    status: 2,
-    estimate_time: 0,
-    due_date: "2023-07-14",
-    start_date: "2023-07-11",
-    created_at: "2023-07-13T00:04:23.000000Z",
-    updated_at: "2023-07-13T00:04:23.000000Z",
-    tasks: [],
-    members: [],
   },
 ];

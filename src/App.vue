@@ -5,7 +5,8 @@ import { projects } from "./data";
 
 <template>
   <div class="mpj_list_content flex">
-    <div class="ctable-content-body">
+    <h1 class="p-3">Projects</h1>
+    <div class="ctable-content-body mt-2">
       <project-card
         v-for="(item, index) in projects"
         :key="index"
